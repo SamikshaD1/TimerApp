@@ -1,0 +1,112 @@
+body {
+  font-family: Roboto;
+  background: #1d1d23;
+  width: 100%;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.timer-input {
+  text-align: center;
+}
+
+/* input {
+  width: 50px;
+  text-align: center;
+  margin: 5px;
+} */
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.active-timer {
+  display: flex;
+  justify-content:center;
+  gap: 4vw;
+  align-items: center;
+  padding: 5px;
+  border-radius: 20px;
+  background: #34344a;
+  width: 700px;
+  height: 130px;
+ flex-shrink: 0;
+  margin: 5px 0;
+}
+
+.active-timer .time {
+  font-size: 50px;
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-weight: 500;
+}
+
+.active-timer .stop-button {
+  
+  cursor: pointer;
+  border-radius: 30px;
+  background: #f0f757;
+  width: 124px;
+  height: 52px;
+  color: #34344a;
+}
+
+/* my css */
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  background: #34344a;
+  width: 849px;
+  height: 132px;
+  flex-shrink: 0;
+}
+#set-time {
+  font-size: 24px;
+  font-weight: 500;
+}
+#startTimer {
+  border-radius: 26px;
+  background: #f0f757;
+  width: 124px;
+  height: 52px;
+  color: #34344a;
+}
+#time > input {
+  background: #34344a;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  text-decoration-line: underline;
+  border: none;
+}
+.Current-time {
+  border-radius: 50px;
+  background: #39393e;
+  width: 413px;
+  height: 66px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 2vw;
+  
+}
